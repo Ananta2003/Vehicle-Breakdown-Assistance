@@ -1,0 +1,50 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  
+  /* Setting full width for the table */
+  table {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-collapse: collapse; /* Collapsing borders between table cells */
+  }
+  
+  /* Styling table header */
+  th {
+    background-color: EFBC9B; /* Light gray background */
+    padding: 10px; /* Adding some padding */
+    border: 1px solid #ddd; /* Adding a border */
+  }
+  
+  /* Styling table rows alternately */
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Lighter background for even rows */
+  }
+  
+  /* Styling table data cells */
+  td {
+    padding: 10px; /* Adding some padding */
+    border: 1px solid #ddd; /* Adding a border */
+  }
+  
+  /* Hover effect on rows */
+  tr:hover {
+    background-color: #f2f2f2; /* Light gray background on hover */
+  }
+
+  h1 {
+    font-family: 'Oswald', sans-serif; /* Setting font family */
+    font-size: 40px; /* Setting font size */
+    color: FFF8DC; /* Setting text color */
+    background-color: #6C0345; /* Background color */
+    padding: 20px; /* Adding padding */
+    text-align: center; /* Center aligning text */
+  }
+
+  
